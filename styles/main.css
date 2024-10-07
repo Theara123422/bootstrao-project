@@ -8,6 +8,7 @@
 :root{
     --main-font : "Poppins";
     --secondary-font : "Roboto";
+    --bg-color : #EFEFEF;
 }
 .main-font{
     font-family: "Poppins";
@@ -76,5 +77,20 @@ body{
 }
 .input-field , .icon-search{
     height: 40px;
+}
+.hero-container{
+    height: 400px;
+    background-color: var(--bg-color);
+
+}
+.btn-shop{
+    height: 40px;
+    border: none;
+    background-color: white;
+}
+.discount-container{
+    height: 40px;
+    background-color: var(--bg-color);
+    border-top: 1px solid black;
 }
 
