@@ -136,8 +136,13 @@ body{
  }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width:1199px) { 
-
+@media (min-width: 992px) and (max-width:1199.99px) { 
+    .bar{
+        margin-left: 100%;
+        margin-top: 14px;
+        font-size: 25px;
+        color: grey;
+    }
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
